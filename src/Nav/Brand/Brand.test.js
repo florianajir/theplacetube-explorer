@@ -5,13 +5,12 @@ import renderer from 'react-test-renderer';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<Brand />, div);
+  ReactDOM.render(<Brand/>, div);
 });
-
 
 test('Link changes the class when hovered', () => {
   const component = renderer.create(
-      <Brand/>,
+      <Brand/>
   );
   let tree = component.toJSON();
   expect(tree).toMatchSnapshot();

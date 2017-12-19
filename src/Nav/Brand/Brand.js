@@ -4,7 +4,7 @@ import logo from '../../logo.svg';
 
 const STATUS = {
   HOVERED: 'font-effect-neon',
-  NORMAL: 'font-effect-outline',
+  NORMAL: 'font-effect-outline'
 };
 
 class Brand extends Component {
@@ -14,7 +14,7 @@ class Brand extends Component {
     this._onMouseEnter = this._onMouseEnter.bind(this);
     this._onMouseLeave = this._onMouseLeave.bind(this);
     this.state = {
-      class: STATUS.NORMAL,
+      class: STATUS.NORMAL
     };
   }
 

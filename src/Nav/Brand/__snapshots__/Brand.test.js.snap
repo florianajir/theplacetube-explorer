@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link changes the class when hovered 1`] = `
+<a
+  className="Brand navbar-brand font-effect-outline"
+  href="/"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <img
+    alt="Logo"
+    className="Brand-logo"
+    height="30"
+    src="logo.svg"
+    width="30"
+  />
+  ThePlaceTube
+</a>
+`;
+
+exports[`Link changes the class when hovered 2`] = `
+<a
+  className="Brand navbar-brand font-effect-neon"
+  href="/"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <img
+    alt="Logo"
+    className="Brand-logo"
+    height="30"
+    src="logo.svg"
+    width="30"
+  />
+  ThePlaceTube
+</a>
+`;
+
+exports[`Link changes the class when hovered 3`] = `
+<a
+  className="Brand navbar-brand font-effect-outline"
+  href="/"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <img
+    alt="Logo"
+    className="Brand-logo"
+    height="30"
+    src="logo.svg"
+    width="30"
+  />
+  ThePlaceTube
+</a>
+`;
