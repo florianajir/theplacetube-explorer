@@ -10,7 +10,6 @@ const STATUS = {
 class Brand extends Component {
   constructor(props) {
     super(props);
-    this.state = {isHovered: false};
     this._onMouseEnter = this._onMouseEnter.bind(this);
     this._onMouseLeave = this._onMouseLeave.bind(this);
     this.state = {
