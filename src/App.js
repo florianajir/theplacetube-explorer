@@ -1,17 +1,21 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+import {Helmet} from 'react-helmet';
 import './App.css';
+import Explorer from './Explorer/Explorer';
+import Footer from './components/Footer';
+import Nav from './Nav/Nav';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+        <div className="App">
+          <Helmet>
+            <meta property='fb:app_id' content={process.env.REACT_APP_FACEBOOK_APP_ID}/>
+          </Helmet>
+          <Nav/>
+          <Explorer/>
+          <Footer/>
+        </div>
     );
   }
 }
