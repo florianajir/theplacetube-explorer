@@ -1,11 +1,21 @@
 {
-  "short_name": "ThePlaceTube Explorer",
-  "name": "Explorer for ThePlaceTube.com",
+  "short_name": "ThePlaceTube",
+  "name": "Interactive geo-localized multimedia services",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "48x48 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "logo64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "logo128.png",
+      "sizes": "128x128",
+      "type": "image/png"
     }
   ],
   "start_url": "./index.html",
