@@ -1,5 +1,34 @@
+/* General */
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+#root {
+    height: 100%;
+}
+
+/* Utilities */
+.flex {
+    flex: 1;
+}
+
+.alt-font {
+    font-family: 'Indie Flower', cursive;
+}
+
+.max-height {
+    height: 100%;
+}
+
+.fill {
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
 }
