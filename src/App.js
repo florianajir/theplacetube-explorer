@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
 import {Helmet} from 'react-helmet';
 import './App.css';
-import Explorer from './Explorer/Explorer';
-import Footer from './components/Footer';
-import Nav from './Nav/Nav';
+import Explorer from './containers/Explorer';
+import Nav from './containers/TopBar';
 
 class App extends Component {
   render() {
@@ -14,7 +13,6 @@ class App extends Component {
           </Helmet>
           <Nav/>
           <Explorer/>
-          <Footer/>
         </div>
     );
   }
