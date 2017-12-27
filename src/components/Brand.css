@@ -1,0 +1,13 @@
+.Brand {
+    font-family: "Lobster", cursive;
+    text-decoration: none;
+}
+
+.Brand:hover {
+    color: #3f51b5;
+}
+
+.Brand-logo {
+    vertical-align: top;
+    margin-right: 5px;
+}

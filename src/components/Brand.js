@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './Brand.css';
-import logo from '../../logo.svg';
 
 const STATUS = {
   HOVERED: 'font-effect-neon',
@@ -26,10 +25,9 @@ class Brand extends Component {
   }
 
   render() {
-    const brandClass = 'Brand navbar-brand ' + this.state.class;
+    const brandClass = 'Brand ' + this.state.class;
     return (
         <a href="/" className={brandClass} onMouseEnter={this._onMouseEnter} onMouseLeave={this._onMouseLeave}>
-          <img className="Brand-logo" src={logo} alt="Logo" width="30" height="30"/>
           ThePlaceTube
         </a>
     );
