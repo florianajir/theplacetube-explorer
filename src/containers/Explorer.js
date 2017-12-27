@@ -4,7 +4,6 @@ import Grid from 'material-ui/Grid';
 import Map from '../components/Map';
 import Player from './Player';
 import Sidebar from './Sidebar';
-import BottomNavigation from '../components/BottomNavigation';
 
 class Explorer extends Component {
   constructor(props) {
@@ -76,7 +75,6 @@ class Explorer extends Component {
               </Grid>
               <Grid item className="right-panel" xs={12} sm={6} md={5} xl={4}>
                 <Sidebar results={this.props.results} onSearchChange={this.handleSearchChange} onPlay={this.handlePlay}/>
-                <BottomNavigation/>
               </Grid>
             </Grid>
           </main>
