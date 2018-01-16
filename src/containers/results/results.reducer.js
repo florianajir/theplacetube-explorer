@@ -1,4 +1,4 @@
-import {FETCH_VIDEOS_SUCCESS} from '../constants/ActionTypes';
+import {FETCH_VIDEOS_SUCCESS,FETCH_VIDEOS_ERROR} from 'results.actionType';
 
 const initialState = {
   videos: []
@@ -13,6 +13,14 @@ const results = (state = initialState, action) => {
           videos: action.videos
         }
       ];
+    case FETCH_VIDEOS_ERROR:
+      return [
+        ...state,
+        {
+          error: action.error
+        }
+      ];
+
     default:
       return state;
   }

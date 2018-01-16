@@ -1,5 +1,5 @@
-import {SET_ORDER, SET_PUBLISHED_AFTER, SET_SEARCH, SET_VIDEO_CATEGORY} from '../constants/ActionTypes';
-import {ORDER_VIEWCOUNT} from '../constants/YoutubeApi';
+import {SET_ORDER, SET_PUBLISHED_AFTER, SET_SEARCH, SET_VIDEO_CATEGORY} from 'search.actionType';
+import {ORDER_VIEWCOUNT} from '../../constants/YoutubeApi';
 
 const initialState = {
   order: ORDER_VIEWCOUNT,

@@ -1,4 +1,4 @@
-import {CLOSE_VIDEO, PLAY_VIDEO} from '../constants/ActionTypes';
+import {CLOSE_VIDEO, PLAY_VIDEO} from 'player.actionType';
 
 const initialState = {
   video: null

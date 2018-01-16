@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import VideoList from './VideoList';
+import Player from './Player';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<VideoList/>, div);
+  ReactDOM.render(<Player video={{"id":"foo"}} onClose={console.log('close')}/>, div);
 });

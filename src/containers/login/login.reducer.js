@@ -1,6 +1,6 @@
-import {FETCH_USER_SUCCESS} from '../constants/ActionTypes';
+import {FETCH_USER_SUCCESS} from 'login.actionType';
 
-const user = (state = {}, action) => {
+const login = (state = {}, action) => {
   switch (action.type) {
     case FETCH_USER_SUCCESS:
       return [
@@ -12,4 +12,4 @@ const user = (state = {}, action) => {
   }
 };
 
-export default user;
+export default login;

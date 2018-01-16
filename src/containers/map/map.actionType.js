@@ -1,0 +1,3 @@
+export const SET_LOCATION = 'SET_MAP_LOCATION';
+export const SET_RADIUS = 'SET_MAP_RADIUS';
+export const SET_VIEWPORT = 'SET_MAP_VIEWPORT';

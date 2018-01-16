@@ -1,4 +1,4 @@
-import {SET_LOCATION, SET_RADIUS, SET_VIEWPORT} from '../constants/ActionTypes';
+import {SET_LOCATION, SET_RADIUS, SET_VIEWPORT} from 'map.actionType';
 
 const initialState = {
   location: null,

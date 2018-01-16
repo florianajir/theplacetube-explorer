@@ -4,5 +4,5 @@ import YoutubeEmbed from './YoutubeEmbed';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<YoutubeEmbed />, div);
+  ReactDOM.render(<YoutubeEmbed id="1" />, div);
 });
